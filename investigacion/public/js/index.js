@@ -13,7 +13,7 @@ $(document).ready(function(){
     $('select').formSelect();
 
 
-
+    autoplay();
      //TODO Eventos NEXT Y PREVIOUS
      $('#next').click(function(){
         $('.carousel').carousel('next');
@@ -22,6 +22,10 @@ $(document).ready(function(){
         $('.carousel').carousel('prev');
      });
 });
+ function autoplay() {
+     $('.carousel').carousel('next');
+     setTimeout(autoplay, 4500);
+ }
 $("#marca").change(cons2);
 function cons2(){
     const marcas = $('#marca').val();

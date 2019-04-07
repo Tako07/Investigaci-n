@@ -1,0 +1,24 @@
+html,body{
+   height: 100%;
+   background-color: black;
+   text-align: center;
+}
+.carousel-item img{
+   width: 400px;
+   height: 200px;
+}
+.botones{
+   margin: auto;
+}
+.botones button{
+    padding: 10px 40px 10px 40px;
+    background-color: white;
+    color: orange;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.botones button:hover{
+  background-color: orange;
+  color: white;
+}

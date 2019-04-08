@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="row">
-      <div class="col s12 m6">
+      <div class="col s12 m6 img_pedido">
     	  <a><img class="left responsive-img" src="public/images/hamburguesa1.jpeg" ></a>
       </div>
       <div class="col s12 m6">
@@ -32,7 +32,7 @@
           <div class="col s12 l6">
             <h4><strong>Tiempo de preparación</strong></h4>
             <p>De 10 a 15 minutos</p>
-            <a href="#" class="waves-effect waves-light btn-large brown darken-2 center-align">Comprar</a>
+            <a href="#" class="waves-effect btn-large brown darken-2 center-align">Comprar</a>
           </div>
         </div>
         

@@ -65,7 +65,7 @@
           </div>
           <div id="desc" class="row col l12">
             <div class="col m3">
-              <p><img class="left responsive-img" src="public/images/hamburguesa1.jpeg" height="200" width="200" ></p>
+              <a href="compra.php"><img class="left responsive-img" src="public/images/hamburguesa1.jpeg" height="200" width="200" ></a>
             </div>
             <div class="col m9">
               <p><strong>Hamburgruesa</strong><br>
@@ -77,7 +77,7 @@
             </div>
           </div>
     		</div>
-        <div class="container lime col s6 m3">
+        <div class="container light-green col s6 m3">
           <p class="center-align"><img class="responsive-img" src="public/images/Sincr.jpg" height="200" width="200" ></p>
           <p class="center-align">Mega sincronizada</p>
           <p class="center-align"><img src="public/images/torta1.jpg" class="responsive-img" height="200" width="200" ></p>

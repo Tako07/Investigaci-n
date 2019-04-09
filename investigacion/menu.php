@@ -15,8 +15,8 @@
     <div class="row">
       <div class="col s12">
         <ul class="tabs">
-          <li class="tab col s2"><a style="color:#795548"; href="#test1">Lunes</a></li>
-          <li class="tab col s2"><a style="color:#795548"; class="active" href="#test2">Martes</a></li>
+          <li class="tab col s2"><a style="color:#795548"; class="active" href="#test1">Lunes</a></li>
+          <li class="tab col s2"><a style="color:#795548"; href="#test2">Martes</a></li>
           <li class="tab col s2"><a style="color:#795548"; href="#test3">Miércoles</a></li>
           <li class="tab col s2"><a style="color:#795548"; href="#test4">Jueves</a></li>
           <li class="tab col s2"><a style="color:#795548"; href="#test4">Viernes</a></li>
@@ -25,6 +25,72 @@
       </div>
       <div id="test1" class="row col s12">
          <div class="col m2">
+              <a href="compra.php"><img class="left responsive-img" src="public/images/hamburguesa1.jpeg" height="200" width="200" ></a>
+          </div>
+          <div class="col m2">
+              <p><strong>Hamburgruesa</strong><br>
+              Está bien sabrosonga <br>
+              <strong>Descripción</strong><br>
+              Lleva pitomate <br>
+              y cebolla<br>
+              </p>
+          </div>
+          <div class="col m2">
+              <a href="compra.php"><img class="left responsive-img" src="public/images/Sincr.jpg" height="200" width="200" ></a>
+          </div>
+          <div class="col m2">
+              <p><strong>Hamburgruesa</strong><br>
+              Está bien sabrosonga <br>
+              <strong>Descripción</strong><br>
+              Lleva pitomate <br>
+              y cebolla<br>
+              </p>
+          </div>
+          <div class="col m2">
+              <a href="compra.php"><img class="left responsive-img" src="public/images/torta1.jpg" height="200" width="200" ></a>
+          </div>
+          <div class="col m2">
+              <p><strong>Hamburgruesa</strong><br>
+              Está bien sabrosonga <br>
+              <strong>Descripción</strong><br>
+              Lleva pitomate <br>
+              y cebolla<br>
+              </p>
+          </div>
+          <div class="col m2">
+              <a href="compra.php"><img class="left responsive-img" src="public/images/hamburguesa1.jpeg" height="200" width="200" ></a>
+          </div>
+          <div class="col m2">
+              <p><strong>Hamburgruesa</strong><br>
+              Está bien sabrosonga <br>
+              <strong>Descripción</strong><br>
+              Lleva pitomate <br>
+              y cebolla<br>
+              </p>
+          </div>
+          <div class="col m2">
+              <a href="compra.php"><img class="left responsive-img" src="public/images/Sincr.jpg" height="200" width="200" ></a>
+          </div>
+          <div class="col m2">
+              <p><strong>Hamburgruesa</strong><br>
+              Está bien sabrosonga <br>
+              <strong>Descripción</strong><br>
+              Lleva pitomate <br>
+              y cebolla<br>
+              </p>
+          </div>
+          <div class="col m2">
+              <a href="compra.php"><img class="left responsive-img" src="public/images/torta1.jpg" height="200" width="200" ></a>
+          </div>
+          <div class="col m2">
+              <p><strong>Hamburgruesa</strong><br>
+              Está bien sabrosonga <br>
+              <strong>Descripción</strong><br>
+              Lleva pitomate <br>
+              y cebolla<br>
+              </p>
+          </div>
+          <div class="col m2">
               <a href="compra.php"><img class="left responsive-img" src="public/images/hamburguesa1.jpeg" height="200" width="200" ></a>
           </div>
           <div class="col m2">

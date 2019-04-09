@@ -21,7 +21,7 @@
           <div class="col s12 l6">
             <h4><strong>Ingredientes</strong></h4>
             <p>Pan verde de las colinas de zacatecas <br>
-              Rabanos Estelares<br>
+              Rabanos de Chernoville<br>
               Lechuga <br>
               Play-do Rosa <br>
               Carne de Cimarron <br>

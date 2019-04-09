@@ -11,7 +11,7 @@ $(document).ready(function(){
      
     $('.sidenav').sidenav();
     $('select').formSelect();
-
+    $('.tabs').tabs();
 
     autoplay();
      //TODO Eventos NEXT Y PREVIOUS

@@ -24,6 +24,15 @@ $(document).ready(function(){
      $('#previous').click(function(){
         $('.carousel').carousel('prev');
      });
+     $.ajax({
+            url:"servidor/mostrar_ingrediente.php",
+            method: "POST",
+            dataType:"text",
+            success: function (data) {
+              const contenido=document.getElementById('mostrar_ing');
+              contenido.innerHTML=data;
+            }
+         });
 });
  function autoplay() {
      $('.carousel').carousel('next');

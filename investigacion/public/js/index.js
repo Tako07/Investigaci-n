@@ -24,20 +24,35 @@ $(document).ready(function(){
      $('#previous').click(function(){
         $('.carousel').carousel('prev');
      });
-     $.ajax({
+       $.ajax({
             url:"servidor/mostrar_ingrediente.php",
             method: "POST",
-            dataType:"text",
+            dataType:"json",
             success: function (data) {
-              const contenido=document.getElementById('mostrar_ing');
-              contenido.innerHTML=data;
+              console.log(data);
+              for (var i = 0; i < data.length; i++) {
+                $('#mostrar_ing').append('<div class="row" id="iding'+data[i]['id']+'"><div class="col s12 m3"><p class="left-align"><img src="public/images/'+data[i]['imagen']+'" height="200" width="300" ></p></div> <div class="col s6 m3"><p><b>Nombre:</b></p><p>'+data[i]['nombre']+'</p><p><b>Precio:</b></p><p>'+data[i]['precio']+'</p></div><div class="col s6 m3"><p><b>Fecha de compra:</b></p><p>'+data[i]['compra']+'</p><p><b>Fecha de caducidad:</b></p><p>'+data[i]['caducidad']+'</p></div><div class="col m3"><p><b>Cantidad:</b></p><p>'+data[i]['cantidad']+'</p></div></div>');
+              
+              }
+              for (var i = 0; i < data.length; i++) {
+              $('#iding'+data[i]['id']).click(function() {
+              alert("we"+i);
+              });
+            }
             }
          });
+    
 });
+ 
+
  function autoplay() {
      $('.carousel').carousel('next');
      setTimeout(autoplay, 4500);
  }
+ function hola(){
+    alert("hola");
+ }
+
 $('#boton_agregar').click(function() {
     
       const nombre = $('#nombre').val();
@@ -67,7 +82,7 @@ $('#boton_agregar').click(function() {
             dataType:"text",
             data:{nombre:nombre,imagen:imagen,fecha_cad:fecha_cad,fecha_com:fecha_com,cantidad:cantidad,precio:precio},
             success: function (data) {
-              alert(data);
+              alert("agregado");
               window.location.href = "index.php";
             }
          });

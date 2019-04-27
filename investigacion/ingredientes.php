@@ -15,7 +15,7 @@
       <div class="col s1"></div>
       <div class="card col s10">
       <h3>Registrar Ingredientes</h3>
-      <form class="col s12">
+      <div class="col s12">
       <div class="row">
         <div class="input-field col s12 m6">
           <input placeholder="Nombre" id="nombre" type="text" class="validate">
@@ -63,13 +63,13 @@
           </div>
         </div>
         <div class="center-align col s12">
-          <button id="boton_agregar" class="btn brown" type="submit" name="action">Agregar Ingrediente
+          <button id="boton_agregar" class="btn brown">Agregar Ingrediente
             <i class="material-icons right">send</i>
           </button>
         </div>   
          
       </div>
-    </form>
+    </div>
     </div>
     <div class="col s1"></div>
     </div>

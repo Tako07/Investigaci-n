@@ -38,11 +38,6 @@
         
       </div>
     </div>
-    <div class="botones">
-      <button id="next">Next</button>
-      <button id="previous">Previous</button>
-    </div>
-
      <script type="text/javascript" src="public/js/jquery.js"></script>
     <script type="text/javascript" src="public/js/materialize.min.js"></script>
     <script type="text/javascript" src="public/js/index.js"></script>

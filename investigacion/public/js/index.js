@@ -31,19 +31,20 @@ $(document).ready(function(){
             success: function (data) {
               console.log(data);
               for (var i = 0; i < data.length; i++) {
-                $('#mostrar_ing').append('<div class="row" id="iding'+data[i]['id']+'"><div class="col s12 m3"><p class="left-align"><img src="public/images/'+data[i]['imagen']+'" height="200" width="300" ></p></div> <div class="col s6 m3"><p><b>Nombre:</b></p><p>'+data[i]['nombre']+'</p><p><b>Precio:</b></p><p>'+data[i]['precio']+'</p></div><div class="col s6 m3"><p><b>Fecha de compra:</b></p><p>'+data[i]['compra']+'</p><p><b>Fecha de caducidad:</b></p><p>'+data[i]['caducidad']+'</p></div><div class="col m3"><p><b>Cantidad:</b></p><p>'+data[i]['cantidad']+'</p></div></div>');
-              
+                $('#mostrar_ing').append('<div class="row" id="iding'+data[i]['id']+'"><div class="col s12 m3"><p class="left-align"><a href="compra.php?variable='+data[i]['id']+'" onclick="pasar('+data[i]['id']+')"><img src="public/images/'+data[i]['imagen']+'" height="200" width="300" ></a></p></div> <div class="col s6 m3"><p><b>Nombre:</b></p><p>'+data[i]['nombre']+'</p><p><b>Precio:</b></p><p>'+data[i]['precio']+'</p></div><div class="col s6 m3"><p><b>Fecha de compra:</b></p><p>'+data[i]['compra']+'</p><p><b>Fecha de caducidad:</b></p><p>'+data[i]['caducidad']+'</p></div><div class="col m3"><p><b>Cantidad:</b></p><p>'+data[i]['cantidad']+'</p></div></div>');
               }
-              for (var i = 0; i < data.length; i++) {
-              $('#iding'+data[i]['id']).click(function() {
-              alert("we"+i);
-              });
-            }
             }
          });
-    
+    tinymce.init({
+      selector: "textarea"
+   });
 });
- 
+
+function pasar(y){
+  var x = y;
+  const contenido=document.getElementById('nombre');
+                contenido.innerHTML=x;
+}
 
  function autoplay() {
      $('.carousel').carousel('next');

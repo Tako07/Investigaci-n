@@ -20,7 +20,7 @@
         <div class="row">
           <div class="col s12 l6">
             <h4><strong>Ingredientes</strong></h4>
-            <p>Pan verde de las colinas de zacatecas <br>
+            <p id="nombre">Pan verde de las colinas de zacatecas <br><?php $v1 = $_GET['variable']; echo $v1?>
               Rabanos de Chernoville<br>
               Lechuga <br>
               Play-do Rosa <br>

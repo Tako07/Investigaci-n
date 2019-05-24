@@ -25,28 +25,28 @@
          </div>
           <div class="col s6 m3">
             <select id="marca">
-              <option value="" disabled selected>Marca</option>
-              <option value="Toy Machine">Toy Machine</option>
-              <option value="Element">Element</option>
-              <option value="Darkstar">Darkstar</option>
+              <option value="" disabled selected>Tipo de comida</option>
+              <option value="Toy Machine">Tortas</option>
+              <option value="Element">Molletes</option>
+              <option value="Darkstar">Quesadillas</option>
             </select>
           </div>
           <div class="col s6 m3">
             <select id="ordenar">
-              <option value="" disabled selected>Ordenar</option>
+              <option value="" disabled selected>Ordenar por</option>
               <option value="precio">Precio</option>
-              <option value="marca">Marca</option>
+              <option value="marca">Calificación</option>
               <option value="nombre">Nombre</option>
             </select>
           </div>
           <div class="col s6 m3">
             <select>
-              <option value="" disabled selected>Tipo</option>
-              <option value="1">Tabla</option>
-              <option value="2">Ruedas</option>
-              <option value="3">Trucks</option>
-              <option value="4">Valeros</option>
-              <option value="5">Lijas</option>
+              <option value="" disabled selected>Calificación</option>
+              <option value="1">5</option>
+              <option value="2">4</option>
+              <option value="3">3</option>
+              <option value="4">2</option>
+              <option value="5">1</option>
             </select>
           </div>
           <div class="col s6 m3">
@@ -71,7 +71,7 @@
               <p><strong>Hamburgruesa</strong><br>
     					Está bien sabrosonga <br>
     					<strong>Descripción</strong><br>
-    					Lleva pitomate <br>
+    					Lleva jitomate <br>
     					y cebolla<br>
     					</p>
             </div>
@@ -81,7 +81,7 @@
           <p class="center-align"><img class="responsive-img" src="public/images/Sincr.jpg" height="200" width="200" ></p>
           <p class="center-align">Mega sincronizada</p>
           <p class="center-align"><img src="public/images/torta1.jpg" class="responsive-img" height="200" width="200" ></p>
-          <p class="center-align">Torta de milaneza</p>
+          <p class="center-align">Torta de milanesa</p>
         </div>
     </div>
      <script type="text/javascript" src="public/js/jquery.js"></script>

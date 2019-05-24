@@ -29,9 +29,9 @@
           </div>
           <div class="col m2">
               <p><strong>Hamburgruesa</strong><br>
-              Está bien sabrosonga <br>
+              La favorita del público <br>
               <strong>Descripción</strong><br>
-              Lleva pitomate <br>
+              Lleva jitomate <br>
               y cebolla<br>
               </p>
           </div>
@@ -40,9 +40,9 @@
           </div>
           <div class="col m2">
               <p><strong>Hamburgruesa</strong><br>
-              Está bien sabrosonga <br>
+              La favorita del público <br>
               <strong>Descripción</strong><br>
-              Lleva pitomate <br>
+              Lleva jitomate <br>
               y cebolla<br>
               </p>
           </div>
@@ -51,9 +51,9 @@
           </div>
           <div class="col m2">
               <p><strong>Hamburgruesa</strong><br>
-              Está bien sabrosonga <br>
+              La favorita del público <br>
               <strong>Descripción</strong><br>
-              Lleva pitomate <br>
+              Lleva jitomate <br>
               y cebolla<br>
               </p>
           </div>
@@ -62,9 +62,9 @@
           </div>
           <div class="col m2">
               <p><strong>Hamburgruesa</strong><br>
-              Está bien sabrosonga <br>
+              La favorita del público <br>
               <strong>Descripción</strong><br>
-              Lleva pitomate <br>
+              Lleva jitomate <br>
               y cebolla<br>
               </p>
           </div>
@@ -73,9 +73,9 @@
           </div>
           <div class="col m2">
               <p><strong>Hamburgruesa</strong><br>
-              Está bien sabrosonga <br>
+              La favorita del público <br>
               <strong>Descripción</strong><br>
-              Lleva pitomate <br>
+              Lleva jitomate <br>
               y cebolla<br>
               </p>
           </div>
@@ -84,9 +84,9 @@
           </div>
           <div class="col m2">
               <p><strong>Hamburgruesa</strong><br>
-              Está bien sabrosonga <br>
+              La favorita del público <br>
               <strong>Descripción</strong><br>
-              Lleva pitomate <br>
+              Lleva jitomate <br>
               y cebolla<br>
               </p>
           </div>
@@ -95,9 +95,9 @@
           </div>
           <div class="col m2">
               <p><strong>Hamburgruesa</strong><br>
-              Está bien sabrosonga <br>
+              La favorita del público <br>
               <strong>Descripción</strong><br>
-              Lleva pitomate <br>
+              Lleva jitomate <br>
               y cebolla<br>
               </p>
           </div>
@@ -106,9 +106,9 @@
           </div>
           <div class="col m2">
               <p><strong>Hamburgruesa</strong><br>
-              Está bien sabrosonga <br>
+              La favorita del público <br>
               <strong>Descripción</strong><br>
-              Lleva pitomate <br>
+              Lleva jitomate <br>
               y cebolla<br>
               </p>
           </div>
@@ -117,9 +117,9 @@
           </div>
           <div class="col m2">
               <p><strong>Hamburgruesa</strong><br>
-              Está bien sabrosonga <br>
+              La favorita del público <br>
               <strong>Descripción</strong><br>
-              Lleva pitomate <br>
+              Lleva jitomate <br>
               y cebolla<br>
               </p>
           </div>

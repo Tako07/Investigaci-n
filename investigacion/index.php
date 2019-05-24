@@ -69,7 +69,7 @@
             </div>
             <div class="col m9">
               <p><strong>Hamburgruesa</strong><br>
-    					Está bien sabrosonga <br>
+    					La favorita del público <br>
     					<strong>Descripción</strong><br>
     					Lleva jitomate <br>
     					y cebolla<br>
